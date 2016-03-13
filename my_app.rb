@@ -13,10 +13,10 @@ end
 post ('/submit') do 
 #Twitter API
 twitter_api = Twitter::REST::Client.new do |config|
-	config.consumer_key         ="YOUR_CONSUMER_KEY"
-	config.consumer_secret      ="YOUR_CONSUMER_SECRET"
-	config.access_token         ="YOUR_ACCESS_TOKEN"
-	config.access_token_secret  ="YOUR_ACCESS_SECRET"
+	config.consumer_key         ="gFLrFYr9GZqtot2kfqMlolIDR"
+	config.consumer_secret      ="OweIVRWfYFn8Cma4PHsjyPVmyzgQevuZh4e2Kvkxcfd6KhgMfn"
+	config.access_token         ="366754918-b1mBO3fztO96smOtgfC2IKilGuHlPxrAuUuTvjXx"
+	config.access_token_secret  ="LTU6D6SexXHZ28bHkN4F3CAd6yD44YJJEcYYgxVR5Z8Mk"
 end
 
 @name = params [:name]
