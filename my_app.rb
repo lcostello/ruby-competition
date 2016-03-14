@@ -3,10 +3,9 @@
 
 #get submit page 
 
-require 'rubygems'
 require 'sinatra'
 
-get('submit_page') do
+get('/') do
 	erb :submit_page
 end
 #POST 
